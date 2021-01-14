@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>Hello world!</h2>
-    <router-link to='/' class="linka">Home</router-link>
+    <router-link to='/todo-vue/' class="linka">Home</router-link>
     <AddTodo @add-todo='AddTodo'/>
     <select v-model="filter">
       <option value="all">All</option>
